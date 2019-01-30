@@ -1,5 +1,9 @@
 version: "{build}"
 
+artifacts:
+   - path: _build/_CPack_Packages/win64/WIX/wix.log
+     name: wix.log
+
 environment:
   matrix:
     - PlatformToolset: mingw-w64
